@@ -1,0 +1,29 @@
+.details-botttom-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding: 30px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #ffffff;
+  box-shadow: 0px -1px 6px rgba(0, 0, 0, 0.15);
+  border-radius: 30px 30px 0px 0px;
+}
+.details-botttom-container .details-bottom-btn {
+  width: 45%;
+  padding: 10px;
+  background: #fff;
+  border: 2px solid #eb6309;
+  border-radius: 60px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #eb6309;
+}
+.fill-bg-orange {
+  background: #eb6309 !important;
+  color: #fff !important;
+}

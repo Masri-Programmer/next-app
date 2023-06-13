@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@*": ["./*"],
+      "@imports*": ["./imports*"],
+      "@app/*": ["./app/*"],
+    }
+  }
+}

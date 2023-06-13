@@ -1,0 +1,31 @@
+.grid-container {
+  width: 100%;
+  margin-top: 5%;
+}
+.cards-grid-container {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  padding-left: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2% auto;
+  row-gap: 15px;
+  column-gap: 10px;
+}
+.grid-container .card-grid-title {
+  font-weight: 700;
+  font-family: "Poppins";
+  padding: 25px 10px;
+}
+
+@media only screen and (min-width: 670px) {
+  .cards-grid-container {
+    padding: 0 50px;
+  }
+  .grid-container .card-grid-title {
+    font-weight: 700;
+    font-family: "Poppins";
+    padding: 25px 50px;
+  }
+}

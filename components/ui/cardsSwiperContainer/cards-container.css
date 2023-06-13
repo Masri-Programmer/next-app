@@ -1,0 +1,45 @@
+.cards-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin-top: 2%;
+  text-align: center;
+}
+.cards-title-container {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+.cards-title-text {
+  font-weight: 700;
+  font-family: "Poppins";
+}
+.cards-title-container .view-all-cards-btn {
+  border: 1px solid rgb(241, 238, 238);
+  border-radius: 5px;
+  font-weight: 500;
+  padding: 5px;
+  color: #3434fe;
+  background-color: transparent;
+}
+.cards-swiper-container {
+  width: 100%;
+}
+.cards-swiper-container .slick-track {
+  padding: 10px 0;
+}
+.cards-swiper-container .swiper-wrapper {
+  padding: 10px 0;
+}
+.cards-swiper-container .swiper-wrapper .swiper-slide {
+  margin-right: 15px !important;
+}
+
+@media only screen and (min-width: 670px) {
+  .cards-container {
+    width: fit-content !important;
+    margin-left: 0px;
+  }
+}

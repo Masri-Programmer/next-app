@@ -1,0 +1,19 @@
+.product-details-swiper-container {
+  padding-top: 60px;
+}
+.product-details-swiper-container .slick-dots {
+  bottom: 5%;
+}
+.product-details-swiper-container .slick-dots li button:before {
+  color: #ff7a00 !important;
+  font-size: 12px !important;
+}
+
+.product-swiper-item-container {
+  width: 100%;
+  height: 35vh;
+}
+.product-swiper-item-container img {
+  height: 100%;
+  width: 100%;
+}

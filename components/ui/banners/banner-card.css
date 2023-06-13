@@ -1,0 +1,14 @@
+.banner-card-container {
+  width: 100%;
+  margin-top: 5%;
+}
+.banner-card-container img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 670px) {
+  .banner-card-container img {
+    height: 50vh;
+    object-fit: contain;
+  }
+}
